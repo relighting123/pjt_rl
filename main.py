@@ -53,10 +53,6 @@ def main():
         logger.error("Pre-flight check failed. Exiting.")
         sys.exit(1)
 
-    if args.dry_run:
-        logger.info("Dry run successful. Data and config are valid.")
-        return
-
     if args.command == "train":
         run_training(args, config=config)
     elif args.command == "infer":

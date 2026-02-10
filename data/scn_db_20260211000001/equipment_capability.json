@@ -1,0 +1,28 @@
+{
+  "capabilities": [
+    {
+      "product": "ProductA",
+      "process": "Step_10",
+      "model": "Basic",
+      "st": 10.0,
+      "feasible": true,
+      "initial_count": 1
+    },
+    {
+      "product": "ProductA",
+      "process": "Step_20",
+      "model": "Basic",
+      "st": 8.0,
+      "feasible": true,
+      "initial_count": 0
+    },
+    {
+      "product": "ProductA",
+      "process": "Step_30",
+      "model": "Basic",
+      "st": 6.0,
+      "feasible": true,
+      "initial_count": 0
+    }
+  ]
+}

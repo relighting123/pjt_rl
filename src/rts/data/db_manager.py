@@ -95,6 +95,10 @@ class DBManager:
             ))
             
         with conn.cursor() as cursor:
+            # 1. Clear existing results for this timekey
+            cursor.execute("DELETE FROM RTS_RESLT_INF WHERE RULE_TIMEKEY = :tk", tk=rule_timekey)
+            
+            # 2. Batch insert new results
             cursor.executemany(sql, rows)
             conn.commit()
         logger.info(f"Successfully uploaded {len(rows)} result rows for {rule_timekey}")

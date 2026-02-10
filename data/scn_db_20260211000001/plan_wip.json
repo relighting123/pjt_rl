@@ -1,0 +1,25 @@
+{
+  "production": [
+    {
+      "product": "ProductA",
+      "process": "Step_10",
+      "oper_seq": 10,
+      "wip": 40.0,
+      "plan": 36.0
+    },
+    {
+      "product": "ProductA",
+      "process": "Step_20",
+      "oper_seq": 20,
+      "wip": 0.0,
+      "plan": 36.0
+    },
+    {
+      "product": "ProductA",
+      "process": "Step_30",
+      "oper_seq": 30,
+      "wip": 0.0,
+      "plan": 36.0
+    }
+  ]
+}
