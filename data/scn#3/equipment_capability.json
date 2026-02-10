@@ -1,0 +1,32 @@
+{
+    "capabilities": [
+        {
+            "product": "ProductA",
+            "model": "Basic",
+            "process": "Step_10",
+            "oper_seq": 10,
+            "feasible": true,
+            "st": 10,
+            "initial_count": 1
+        },
+        {
+            "product": "ProductA",
+            "model": "Basic",
+            "process": "Step_20",
+            "oper_seq": 20,
+            "feasible": true,
+            "st": 8,
+            "initial_count": 1
+        },
+        {
+            "product": "ProductA",
+            "model": "Basic",
+            "process": "Step_30",
+            "oper_seq": 30,
+            "feasible": true,
+            "st": 6,
+            "initial_count": 0
+        }
+    ]
+}
+

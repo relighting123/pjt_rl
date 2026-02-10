@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rts"
+version = "0.1.0"
+description = "RTS: Reinforcement Training System for EQP Allocation Optimizer"
+readme = "guide.md"
+requires-python = ">=3.8"
+dependencies = [
+    "gymnasium",
+    "numpy",
+    "pandas",
+    "torch",
+    "stable-baselines3[extra]",
+    "matplotlib",
+    "pydantic",
+    "pyyaml",
+    "tqdm",
+    "psutil",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

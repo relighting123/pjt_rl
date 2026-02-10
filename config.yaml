@@ -1,0 +1,24 @@
+# RTS Configuration File
+
+# Environment Settings
+env:
+  max_steps: 24
+  reward:
+    last_step_weight: 50.0
+    total_production_weight: 20.0
+    changeover_penalty: 5.0
+    final_achievement_bonus: 100.0
+
+# Training Settings
+train:
+  timesteps: 60000
+  learning_rate: 0.0003
+  batch_size: 128
+  n_steps: 1024
+  ent_coef: 0.01
+  seed: 42
+
+# Logging Settings
+logging:
+  level: "INFO"
+  log_dir: "logs"

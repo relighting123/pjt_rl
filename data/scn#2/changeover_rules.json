@@ -1,0 +1,19 @@
+{
+    "default_time": 60,
+    "rules": [
+        {
+            "from_product": "ProductA",
+            "from_process": "Step_10",
+            "to_product": "ProductA",
+            "to_process": "Step_30",
+            "time": 5
+        },
+        {
+            "from_product": "ProductA",
+            "from_process": "Step_30",
+            "to_product": "ProductA",
+            "to_process": "Step_10",
+            "time": 5
+        }
+    ]
+}

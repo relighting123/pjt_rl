@@ -1,0 +1,11 @@
+gymnasium
+numpy
+pandas
+torch
+stable-baselines3[extra]
+matplotlib
+pydantic
+pyyaml
+tqdm
+pytest
+psutil
