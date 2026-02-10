@@ -38,6 +38,12 @@ class PlanWIPItem(BaseModel):
     wip: float
     plan: float
 
+class DowntimeItem(BaseModel):
+    model: str
+    start_step: int
+    end_step: int
+    count: int # Number of units of this model unavailable
+
 def load_json(path):
     try:
         with open(path, 'r', encoding='utf-8') as f:
@@ -53,11 +59,14 @@ class DataLoader:
             return []
         return [d for d in os.listdir(data_dir) if os.path.isdir(os.path.join(data_dir, d)) and d.startswith('scn')]
 
-    def __init__(self, data_dir: str, scenario: str = None):
+    def __init__(self, data_dir: str = None, scenario: str = None, raw_data: Dict[str, Any] = None):
         self.data_dir = data_dir
         self.scenario = scenario
+        self.raw_data = raw_data
         
-        if scenario:
+        if raw_data:
+            self.scenario_path = None
+        elif scenario and data_dir:
             self.scenario_path = os.path.join(data_dir, scenario)
         else:
             self.scenario_path = data_dir
@@ -66,21 +75,35 @@ class DataLoader:
 
     def _load_and_validate(self):
         try:
-            # Load and Validate Capabilities
-            cap_data = load_json(os.path.join(self.scenario_path, 'equipment_capability.json'))
-            self.capabilities = [Capability(**c) for c in cap_data['capabilities']]
-            
-            # Load and Validate Changeover Rules
-            co_data = load_json(os.path.join(self.scenario_path, 'changeover_rules.json'))
-            self.changeover_rules = ChangeoverRules(**co_data)
-            
-            # Load and Validate Inventory
-            inv_data = load_json(os.path.join(self.scenario_path, 'equipment_inventory.json'))
-            self.inventory = [InventoryItem(**i) for i in inv_data['inventory']]
-            
-            # Load and Validate Plan WIP
-            pw_data = load_json(os.path.join(self.scenario_path, 'plan_wip.json'))
-            self.plan_wip = [PlanWIPItem(**p) for p in pw_data['production']]
+            if self.raw_data:
+                self.capabilities = [Capability(**c) for c in self.raw_data['capabilities']]
+                self.changeover_rules = ChangeoverRules(**self.raw_data['changeover'])
+                self.inventory = [InventoryItem(**i) for i in self.raw_data['inventory']]
+                self.plan_wip = [PlanWIPItem(**p) for p in self.raw_data['plan_wip']]
+                self.downtime = [DowntimeItem(**d) for d in self.raw_data.get('downtime', [])]
+            else:
+                # Load and Validate Capabilities
+                cap_data = load_json(os.path.join(self.scenario_path, 'equipment_capability.json'))
+                self.capabilities = [Capability(**c) for c in cap_data['capabilities']]
+                
+                # Load and Validate Changeover Rules
+                co_data = load_json(os.path.join(self.scenario_path, 'changeover_rules.json'))
+                self.changeover_rules = ChangeoverRules(**co_data)
+                
+                # Load and Validate Inventory
+                inv_data = load_json(os.path.join(self.scenario_path, 'equipment_inventory.json'))
+                self.inventory = [InventoryItem(**i) for i in inv_data['inventory']]
+                
+                # Load and Validate Plan WIP
+                pw_data = load_json(os.path.join(self.scenario_path, 'plan_wip.json'))
+                self.plan_wip = [PlanWIPItem(**p) for p in pw_data['production']]
+
+                # Load and Validate Downtime (Optional)
+                self.downtime = []
+                dt_path = os.path.join(self.scenario_path, 'equipment_downtime.json')
+                if os.path.exists(dt_path):
+                    dt_data = load_json(dt_path)
+                    self.downtime = [DowntimeItem(**d) for d in dt_data.get('downtime', [])]
             
             logger.debug(f"Successfully loaded and validated scenario: {self.scenario or 'default'}")
         except ValidationError as e:

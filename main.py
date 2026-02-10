@@ -23,10 +23,17 @@ def main():
     infer_parser.add_argument("--mode", type=str, choices=["rl", "heuristic"], default="heuristic")
     infer_parser.add_argument("--data_dir", type=str, default="./data")
     infer_parser.add_argument("--scenario", type=str, default=None)
+    infer_parser.add_argument("--timekey", type=str, default=None, help="OracleDB RULE_TIMEKEY")
     infer_parser.add_argument("--model_path", type=str, default="ppo_eqp_allocator")
     infer_parser.add_argument("--output", type=str, default="inference_results.csv")
     infer_parser.add_argument("--config", type=str, default="config.yaml")
     infer_parser.add_argument("--dry-run", action="store_true", help="Validate data and config without inference")
+
+    # Sync-DB command
+    sync_parser = subparsers.add_parser("sync-db", help="Download DB data to JSON for training")
+    sync_parser.add_argument("--timekey", type=str, required=True, help="OracleDB RULE_TIMEKEY")
+    sync_parser.add_argument("--data_dir", type=str, default="./data")
+    sync_parser.add_argument("--config", type=str, default="config.yaml")
 
     args = parser.parse_args()
 
@@ -54,6 +61,34 @@ def main():
         run_training(args, config=config)
     elif args.command == "infer":
         run_inference(args, config=config)
+    elif args.command == "sync-db":
+        from rts.data.db_manager import DBManager
+        import json
+        import os
+        
+        db = DBManager(config.db)
+        logger.info(f"Downloading data for RULE_TIMEKEY: {args.timekey}")
+        data = db.fetch_data(args.timekey)
+        
+        scn_name = f"scn_db_{args.timekey}"
+        scn_path = os.path.join(args.data_dir, scn_name)
+        os.makedirs(scn_path, exist_ok=True)
+        
+        # Save to JSONs
+        with open(os.path.join(scn_path, 'equipment_capability.json'), 'w', encoding='utf-8') as f:
+            json.dump({"capabilities": data['capabilities']}, f, indent=2)
+        with open(os.path.join(scn_path, 'changeover_rules.json'), 'w', encoding='utf-8') as f:
+            json.dump(data['changeover'], f, indent=2)
+        with open(os.path.join(scn_path, 'equipment_inventory.json'), 'w', encoding='utf-8') as f:
+            json.dump({"inventory": data['inventory']}, f, indent=2)
+        with open(os.path.join(scn_path, 'plan_wip.json'), 'w', encoding='utf-8') as f:
+            json.dump({"production": data['plan_wip']}, f, indent=2)
+        if data['downtime']:
+            with open(os.path.join(scn_path, 'equipment_downtime.json'), 'w', encoding='utf-8') as f:
+                json.dump({"downtime": data['downtime']}, f, indent=2)
+        
+        logger.info(f"Successfully synced DB to {scn_path}")
+        db.close()
 
 if __name__ == "__main__":
     main()

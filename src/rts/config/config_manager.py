@@ -14,6 +14,8 @@ class RewardConfig(BaseModel):
 
 class EnvConfig(BaseModel):
     max_steps: int = 24
+    max_prods: int = 5   # Fixed max for RL observation space
+    max_procs: int = 5   # Fixed max for RL observation space
     reward: RewardConfig = RewardConfig()
 
 class TrainConfig(BaseModel):
@@ -28,9 +30,16 @@ class LoggingConfig(BaseModel):
     level: str = "INFO"
     log_dir: str = "logs"
 
+class DBConfig(BaseModel):
+    user: str = "dispatcher"
+    password: str = "dispatcher"
+    dsn: str = "localhost:1521/XEPDB1" # Default to XE PDB
+    enabled: bool = False
+
 class Config(BaseModel):
     env: EnvConfig = EnvConfig()
     train: TrainConfig = TrainConfig()
+    db: DBConfig = DBConfig()
     logging: LoggingConfig = LoggingConfig()
 
 def load_config(path: str = "config.yaml") -> Config:

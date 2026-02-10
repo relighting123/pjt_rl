@@ -3,6 +3,8 @@
 # Environment Settings
 env:
   max_steps: 24
+  max_prods: 5
+  max_procs: 5
   reward:
     last_step_weight: 50.0
     total_production_weight: 20.0
@@ -22,3 +24,10 @@ train:
 logging:
   level: "INFO"
   log_dir: "logs"
+
+# Database Settings
+db:
+  user: "dispatcher"
+  password: "dispatcher"
+  dsn: "localhost:1521/XEPDB1" # Assuming XE service name, adjust if needed
+  enabled: true

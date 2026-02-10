@@ -1,0 +1,10 @@
+{
+    "downtime": [
+        {
+            "model": "type_C",
+            "start_step": 2,
+            "end_step": 6,
+            "count": 1
+        }
+    ]
+}

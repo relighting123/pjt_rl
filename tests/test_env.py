@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-from rts.env.factory_env import TaktEnv
+from rts.env.factory_env import ProductionEnv
 from rts.data.data_loader import DataLoader
 import json
 
@@ -30,13 +30,13 @@ def mock_data_dir(tmp_path):
     return str(d)
 
 def test_env_reset(mock_data_dir):
-    env = TaktEnv(mock_data_dir, fixed_scenario="scn#1")
+    env = ProductionEnv(mock_data_dir, fixed_scenario="scn#1")
     obs, info = env.reset()
     assert obs.shape[0] == env.observation_space.shape[0]
     assert env.active_eqp.sum() == 1
 
 def test_env_step(mock_data_dir):
-    env = TaktEnv(mock_data_dir, fixed_scenario="scn#1")
+    env = ProductionEnv(mock_data_dir, fixed_scenario="scn#1")
     env.reset()
     # Action 0: Stay
     obs, reward, terminated, truncated, info = env.step(0)

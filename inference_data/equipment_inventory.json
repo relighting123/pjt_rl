@@ -1,0 +1,20 @@
+{
+    "inventory": [
+        {
+            "model": "type_A",
+            "count": 1
+        },
+        {
+            "model": "type_B",
+            "count": 1
+        },
+        {
+            "model": "type_C",
+            "count": 1
+        },
+        {
+            "model": "type_D",
+            "count": 1
+        }
+    ]
+}

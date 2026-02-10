@@ -1,0 +1,44 @@
+{
+    "capabilities": [
+        {
+            "product": "Product_1",
+            "process": "Step_10",
+            "model": "type_A",
+            "st": 10.0,
+            "feasible": true,
+            "initial_count": 1
+        },
+        {
+            "product": "Product_1",
+            "process": "Step_10",
+            "model": "type_B",
+            "st": 12.0,
+            "feasible": true,
+            "initial_count": 0
+        },
+        {
+            "product": "Product_1",
+            "process": "Step_20",
+            "model": "type_C",
+            "st": 15.0,
+            "feasible": true,
+            "initial_count": 1
+        },
+        {
+            "product": "Product_2",
+            "process": "Step_10",
+            "model": "type_D",
+            "st": 8.0,
+            "feasible": true,
+            "initial_count": 1
+        },
+        {
+            "product": "Product_2",
+            "process": "Step_20",
+            "model": "type_A",
+            "st": 11.0,
+            "feasible": true,
+            "initial_count": 0
+        }
+    ]
+}

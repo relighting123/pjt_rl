@@ -10,7 +10,7 @@ import argparse
 import logging
 from tqdm import tqdm
 
-from ..env.factory_env import TaktEnv
+from ..env.factory_env import ProductionEnv
 from .expert import HeuristicExpert
 from ..data.data_loader import DataLoader
 from ..config.config_manager import Config
@@ -79,7 +79,7 @@ def train_rl(env, bc_model=None, model_name: str = "ppo_eqp_allocator", config: 
 
 def make_env(data_dir, scenario, config):
     def _init():
-        return TaktEnv(data_dir, fixed_scenario=scenario, config=config)
+        return ProductionEnv(data_dir, fixed_scenario=scenario, config=config)
     return _init
 
 def run_training(args, config: Config = None):
@@ -98,7 +98,7 @@ def run_training(args, config: Config = None):
         env = DummyVecEnv([make_env(args.data_dir, args.scenario, config.env)])
     
     # single env for expert data generation
-    single_env = TaktEnv(args.data_dir, fixed_scenario=args.scenario, config=config.env)
+    single_env = ProductionEnv(args.data_dir, fixed_scenario=args.scenario, config=config.env)
     
     # 1. Behavior Cloning (BC) Pre-training
     expert = HeuristicExpert(single_env)
@@ -159,7 +159,8 @@ def run_training(args, config: Config = None):
     logger.info(f"\n=== Final Evaluation on All Scenarios from {eval_dir} ===")
     
     scenarios = DataLoader.list_scenarios(eval_dir)
-    eval_env = TaktEnv(eval_dir, fixed_scenario=None)
+    logger.info(f"Found {len(scenarios)} scenarios for evaluation: {scenarios}")
+    eval_env = ProductionEnv(eval_dir, fixed_scenario=None)
     
     results = []
     for scn in scenarios:
@@ -173,7 +174,7 @@ def run_training(args, config: Config = None):
         
         logs = eval_env.get_logs()
         final_prods = logs[logs['timestamp'] == logs['timestamp'].max()]
-        last_process = eval_env.processes[-1]
+        last_process = eval_env.processes[eval_env.last_proc_idx_current]
         ach_df = final_prods[final_prods['process'] == last_process]
         ach_rate = ach_df['produced_sum'].sum() / (ach_df['plan'].sum() + 1e-6)
         
