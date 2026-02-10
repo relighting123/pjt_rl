@@ -1,4 +1,3 @@
-guide.md
 pyproject.toml
 src/rts/__init__.py
 src/rts.egg-info/PKG-INFO
@@ -6,8 +5,11 @@ src/rts.egg-info/SOURCES.txt
 src/rts.egg-info/dependency_links.txt
 src/rts.egg-info/requires.txt
 src/rts.egg-info/top_level.txt
+src/rts/config/__init__.py
+src/rts/config/config_manager.py
 src/rts/data/__init__.py
 src/rts/data/data_loader.py
+src/rts/data/db_manager.py
 src/rts/env/__init__.py
 src/rts/env/factory_env.py
 src/rts/models/__init__.py

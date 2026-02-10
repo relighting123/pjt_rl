@@ -45,14 +45,22 @@ class DBManager:
             data["capabilities"] = [dict(zip(columns, row)) for row in cursor.fetchall()]
             for cap in data["capabilities"]:
                 cap['feasible'] = True if cap['feasible'] == 'Y' else False
+                # Normalize Oracle numeric types to Python native types
+                # Oracle may return Decimal or other special types that behave
+                # differently from Python float/int during downstream processing
+                cap['st'] = float(cap['st'])
+                cap['initial_count'] = int(cap['initial_count'])
 
             # 2. Changeover
             cursor.execute(queries["changeover"], tk=rule_timekey)
             rows = cursor.fetchall()
             if rows:
                 data["changeover"] = {
-                    "default_time": rows[0][5],
-                    "rules": [dict(zip(["from_product", "from_process", "to_product", "to_process", "time"], row[:5])) for row in rows]
+                    "default_time": float(rows[0][5]),
+                    "rules": [dict(zip(
+                        ["from_product", "from_process", "to_product", "to_process", "time"],
+                        [str(row[0]), str(row[1]), str(row[2]), str(row[3]), float(row[4])]
+                    )) for row in rows]
                 }
             else:
                 data["changeover"] = {"default_time": 60.0, "rules": []}
@@ -61,16 +69,26 @@ class DBManager:
             cursor.execute(queries["inventory"], tk=rule_timekey)
             columns = [col[0].lower() for col in cursor.description]
             data["inventory"] = [dict(zip(columns, row)) for row in cursor.fetchall()]
+            for inv in data["inventory"]:
+                inv['count'] = int(inv['count'])
 
             # 4. Plan WIP
             cursor.execute(queries["plan_wip"], tk=rule_timekey)
             columns = [col[0].lower() for col in cursor.description]
             data["plan_wip"] = [dict(zip(columns, row)) for row in cursor.fetchall()]
+            for pw in data["plan_wip"]:
+                pw['oper_seq'] = int(pw['oper_seq'])
+                pw['wip'] = float(pw['wip'])
+                pw['plan'] = float(pw['plan'])
 
             # 5. Downtime
             cursor.execute(queries["downtime"], tk=rule_timekey)
             columns = [col[0].lower() for col in cursor.description]
             data["downtime"] = [dict(zip(columns, row)) for row in cursor.fetchall()]
+            for dt in data["downtime"]:
+                dt['start_step'] = int(dt['start_step'])
+                dt['end_step'] = int(dt['end_step'])
+                dt['count'] = int(dt['count'])
             
         return data
 
