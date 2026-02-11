@@ -150,12 +150,22 @@ def run_inference(args, config: Config = None):
     total_available_minutes = env.total_eqp * env.max_steps * 60
     utilization = total_work_minutes / total_available_minutes
     
+    metrics = {
+        "achievement_rate": float(ach_rate),
+        "utilization": float(utilization),
+        "total_changeovers": int(env.total_changeovers),
+    }
+    
     logger.info(f"\n--- Inference Results ---")
     logger.info(f"Plan Achievement Rate: {ach_rate:.2%}")
     logger.info(f"Overall Equipment Utilization: {utilization:.2%}")
     logger.info(f"Total Equipment Changeovers: {env.total_changeovers}\n")
     
-    return logs
+    return {
+        "logs": logs,
+        "output_dir": output_dir,
+        "metrics": metrics,
+    }
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run Inference for EQP Allocation Optimizer.")

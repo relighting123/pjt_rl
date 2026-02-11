@@ -14,5 +14,7 @@ Requires-Dist: pydantic
 Requires-Dist: pyyaml
 Requires-Dist: tqdm
 Requires-Dist: psutil
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
 Provides-Extra: test
 Requires-Dist: pytest; extra == "test"

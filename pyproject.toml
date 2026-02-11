@@ -19,6 +19,8 @@ dependencies = [
     "pyyaml",
     "tqdm",
     "psutil",
+    "fastapi",
+    "uvicorn[standard]",
 ]
 
 [project.optional-dependencies]

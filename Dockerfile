@@ -28,8 +28,11 @@ RUN pip install -e .
 # Create directory for logs and models
 RUN mkdir -p logs models
 
+# Expose API port
+EXPOSE 8000
+
 # Set default entrypoint
 ENTRYPOINT ["python", "main.py"]
 
-# Default command
-CMD ["--help"]
+# Default command (serve starts the API server)
+CMD ["serve"]

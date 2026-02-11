@@ -5,6 +5,8 @@ src/rts.egg-info/SOURCES.txt
 src/rts.egg-info/dependency_links.txt
 src/rts.egg-info/requires.txt
 src/rts.egg-info/top_level.txt
+src/rts/api/__init__.py
+src/rts/api/server.py
 src/rts/config/__init__.py
 src/rts/config/config_manager.py
 src/rts/data/__init__.py
