@@ -2,7 +2,7 @@ import yaml
 import os
 import logging
 from pydantic import BaseModel, Field
-from typing import Dict, Any
+from typing import Dict, Any, List, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -36,11 +36,31 @@ class DBConfig(BaseModel):
     dsn: str = "localhost:1521/XEPDB1" # Default to XE PDB
     enabled: bool = False
 
+class ApiConfig(BaseModel):
+    host: str = "0.0.0.0"
+    port: int = 8000
+    queue_size: int = 100
+
+class SchedulerJobConfig(BaseModel):
+    name: str = "default"
+    mode: str = "heuristic"
+    timekey: Optional[str] = None   # "auto" = generate from current time
+    scenario: Optional[str] = None
+    data_dir: str = "./data"
+    model_path: str = "ppo_eqp_allocator"
+    interval_seconds: int = 3600
+
+class SchedulerConfig(BaseModel):
+    enabled: bool = False
+    jobs: List[SchedulerJobConfig] = []
+
 class Config(BaseModel):
     env: EnvConfig = EnvConfig()
     train: TrainConfig = TrainConfig()
     db: DBConfig = DBConfig()
     logging: LoggingConfig = LoggingConfig()
+    api: ApiConfig = ApiConfig()
+    scheduler: SchedulerConfig = SchedulerConfig()
 
 def load_config(path: str = "config.yaml") -> Config:
     if not os.path.exists(path):

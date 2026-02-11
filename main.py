@@ -35,6 +35,10 @@ def main():
     sync_parser.add_argument("--data_dir", type=str, default="./data")
     sync_parser.add_argument("--config", type=str, default="config.yaml")
 
+    # Serve command (API server)
+    serve_parser = subparsers.add_parser("serve", help="Start API server with queue-based inference")
+    serve_parser.add_argument("--config", type=str, default="config.yaml")
+
     args = parser.parse_args()
 
     # Initialize Logging and Config
@@ -48,7 +52,13 @@ def main():
         parser.print_help()
         return
 
-    # Pre-flight check
+    # serve command starts the API server (no pre-flight data check needed)
+    if args.command == "serve":
+        from rts.api.server import start_server
+        start_server(config)
+        return
+
+    # Pre-flight check (for train/infer/sync-db that need data_dir)
     if not pre_flight_check(args.data_dir):
         logger.error("Pre-flight check failed. Exiting.")
         sys.exit(1)
