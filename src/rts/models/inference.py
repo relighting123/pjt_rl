@@ -21,6 +21,16 @@ def run_inference(args, config: Config = None):
     if config.db.enabled and rule_timekey:
         from ..data.db_manager import DBManager
         db = DBManager(config.db)
+        
+        if rule_timekey == "auto":
+            logger.info("Resolving 'auto' timekey from DB...")
+            rule_timekey = db.get_latest_timekey()
+            if not rule_timekey:
+                logger.warning("No timekey found in DB. Falling back to current timestamp.")
+                rule_timekey = datetime.now().strftime("%Y%m%d%H%M%S")
+            else:
+                logger.info(f"Resolved 'auto' timekey to: {rule_timekey}")
+        
         logger.info(f"Fetching data from DB for RULE_TIMEKEY: {rule_timekey}")
         raw_data = db.fetch_data(rule_timekey)
     
@@ -131,6 +141,18 @@ def run_inference(args, config: Config = None):
         logger.error(f"Failed to generate production chart: {e}")
         
     # Final Metrics
+    if logs.empty:
+        logger.warning("No inference logs generated. Check if data exists for this timekey.")
+        return {
+            "logs": logs,
+            "output_dir": output_dir,
+            "metrics": {
+                "achievement_rate": 0.0,
+                "utilization": 0.0,
+                "total_changeovers": 0,
+            }
+        }
+
     final_prods = logs[logs['timestamp'] == logs['timestamp'].max()]
     
     # Use the actual last process of the scenario
@@ -150,12 +172,22 @@ def run_inference(args, config: Config = None):
     total_available_minutes = env.total_eqp * env.max_steps * 60
     utilization = total_work_minutes / total_available_minutes
     
+    metrics = {
+        "achievement_rate": float(ach_rate),
+        "utilization": float(utilization),
+        "total_changeovers": int(env.total_changeovers),
+    }
+    
     logger.info(f"\n--- Inference Results ---")
     logger.info(f"Plan Achievement Rate: {ach_rate:.2%}")
     logger.info(f"Overall Equipment Utilization: {utilization:.2%}")
     logger.info(f"Total Equipment Changeovers: {env.total_changeovers}\n")
     
-    return logs
+    return {
+        "logs": logs,
+        "output_dir": output_dir,
+        "metrics": metrics,
+    }
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run Inference for EQP Allocation Optimizer.")

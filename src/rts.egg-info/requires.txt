@@ -8,6 +8,8 @@ pydantic
 pyyaml
 tqdm
 psutil
+fastapi
+uvicorn[standard]
 
 [test]
 pytest

@@ -25,13 +25,28 @@ class ProductionEnv(gym.Env):
         self.models = set()
 
         if self.raw_data:
+            # DB-direct mode: discover entities only from the provided data
             self.scenarios = [fixed_scenario or "raw_data"]
             self.loader = DataLoader(raw_data=self.raw_data)
             self.products.update(self.loader.get_products())
             self.processes.update(self.loader.get_processes())
             self.models.update(self.loader.get_models())
             logger.info("Initializing ProductionEnv with provided raw_data")
+        elif self.fixed_scenario:
+            # Single-scenario file mode (inference): discover entities only from the target scenario
+            # This ensures consistent behavior with the DB-direct path for the same data
+            self.scenarios = DataLoader.list_scenarios(data_dir)
+            if not self.scenarios:
+                raise ValueError(f"No scenarios found in {data_dir}")
+            
+            logger.info(f"Initializing ProductionEnv with fixed scenario '{self.fixed_scenario}' from {data_dir}")
+            
+            dl = DataLoader(data_dir, self.fixed_scenario)
+            self.products.update(dl.get_products())
+            self.processes.update(dl.get_processes())
+            self.models.update(dl.get_models())
         else:
+            # Multi-scenario mode (training): discover entities from ALL scenarios
             self.scenarios = DataLoader.list_scenarios(data_dir)
             if not self.scenarios:
                 raise ValueError(f"No scenarios found in {data_dir}")
@@ -87,7 +102,7 @@ class ProductionEnv(gym.Env):
         self.max_st_global = 0.0
         
         if self.raw_data:
-            # Use provided data for scale estimation
+            # DB-direct mode: estimate scales from the provided data only
             for p in self.loader.plan_wip:
                 self.max_wip_global = max(self.max_wip_global, float(p.wip))
                 self.max_plan_global = max(self.max_plan_global, float(p.plan))
@@ -98,7 +113,25 @@ class ProductionEnv(gym.Env):
             for cap in self.loader.capabilities:
                 if cap.feasible:
                     self.max_st_global = max(self.max_st_global, float(cap.st))
+        elif self.fixed_scenario:
+            # Single-scenario file mode (inference): estimate scales from the target scenario only
+            # This ensures consistent normalization with the DB-direct path for the same data
+            try:
+                dl = DataLoader(self.data_dir, self.fixed_scenario)
+                for p in dl.plan_wip:
+                    self.max_wip_global = max(self.max_wip_global, float(p.wip))
+                    self.max_plan_global = max(self.max_plan_global, float(p.plan))
+                
+                total_eqp_scn = dl.get_total_equipment()
+                self.max_eqp_global = max(self.max_eqp_global, float(total_eqp_scn))
+                
+                for cap in dl.capabilities:
+                    if cap.feasible:
+                        self.max_st_global = max(self.max_st_global, float(cap.st))
+            except Exception as e:
+                logger.warning(f"Failed to scan fixed scenario {self.fixed_scenario} for scales: {e}")
         else:
+            # Multi-scenario mode (training): estimate scales from ALL scenarios
             for scn in self.scenarios:
                 try:
                     dl = DataLoader(self.data_dir, scn)
@@ -221,7 +254,10 @@ class ProductionEnv(gym.Env):
 
         active_total = self.active_eqp.sum(axis=2)
         target_total = self.target_eqp.sum(axis=2)
-        co_total = self.co_remaining.max(axis=2)
+        if self.num_models > 0:
+            co_total = self.co_remaining.max(axis=2)
+        else:
+            co_total = np.zeros((self.num_prods, self.num_procs))
 
         active_norm = (active_total / self.max_eqp_global).flatten()
         target_norm = (target_total / self.max_eqp_global).flatten()

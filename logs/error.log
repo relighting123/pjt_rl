@@ -64,3 +64,19 @@ Traceback (most recent call last):
     if args.dry_run:
        ^^^^^^^^^^^^
 AttributeError: 'Namespace' object has no attribute 'dry_run'
+2026-02-11 23:45:13,570 - rts.api.queue - ERROR - [Worker] Job aa37de47 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:45:13,570 - rts.api.queue - ERROR - [Worker] Job aa37de47 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:47:12,278 - rts.api.queue - ERROR - [Worker] Job a87c3a54 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:47:12,278 - rts.api.queue - ERROR - [Worker] Job a87c3a54 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:49:12,443 - rts.api.queue - ERROR - [Worker] Job f37ebe94 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:49:12,443 - rts.api.queue - ERROR - [Worker] Job f37ebe94 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:51:12,501 - rts.api.queue - ERROR - [Worker] Job ed21a035 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:51:12,501 - rts.api.queue - ERROR - [Worker] Job ed21a035 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:53:12,308 - rts.api.queue - ERROR - [Worker] Job cc809b02 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:53:12,308 - rts.api.queue - ERROR - [Worker] Job cc809b02 failed: zero-size array to reduction operation maximum which has no identity
+2026-02-11 23:56:23,332 - rts.api.queue - ERROR - [Worker] Job 45d7bdb9 failed: 'timestamp'
+2026-02-11 23:56:23,332 - rts.api.queue - ERROR - [Worker] Job 45d7bdb9 failed: 'timestamp'
+2026-02-11 23:58:22,028 - rts.api.queue - ERROR - [Worker] Job e5303c65 failed: 'timestamp'
+2026-02-11 23:58:22,028 - rts.api.queue - ERROR - [Worker] Job e5303c65 failed: 'timestamp'
+2026-02-12 00:00:22,017 - rts.api.queue - ERROR - [Worker] Job bc52ef00 failed: 'timestamp'
+2026-02-12 00:00:22,017 - rts.api.queue - ERROR - [Worker] Job bc52ef00 failed: 'timestamp'

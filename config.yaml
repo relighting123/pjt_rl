@@ -29,5 +29,23 @@ logging:
 db:
   user: "dispatcher"
   password: "dispatcher"
-  dsn: "localhost:1521/XEPDB1" # Assuming XE service name, adjust if needed
+  dsn: "localhost:1521/XEPDB1"
   enabled: true
+
+# API Server Settings
+api:
+  host: "0.0.0.0"
+  port: 8000
+  queue_size: 100
+
+# Scheduler Settings (timer-based auto queue)
+scheduler:
+  enabled: true
+  jobs:
+    - name: "periodic_inference"
+      mode: "heuristic"
+      timekey: "auto"           # "auto" = generate from current time
+      # scenario: null          # set for file-based inference
+      data_dir: "./data"
+      model_path: "ppo_eqp_allocator"
+      interval_seconds: 120     # every 2 minutes
