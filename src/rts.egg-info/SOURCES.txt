@@ -6,7 +6,11 @@ src/rts.egg-info/dependency_links.txt
 src/rts.egg-info/requires.txt
 src/rts.egg-info/top_level.txt
 src/rts/api/__init__.py
+src/rts/api/queue.py
+src/rts/api/routes.py
+src/rts/api/schemas.py
 src/rts/api/server.py
+src/rts/api/service.py
 src/rts/config/__init__.py
 src/rts/config/config_manager.py
 src/rts/data/__init__.py
@@ -22,5 +26,6 @@ src/rts/utils/__init__.py
 src/rts/utils/logging_config.py
 src/rts/utils/seed_manager.py
 src/rts/utils/system_checker.py
+tests/test_api.py
 tests/test_data_loader.py
 tests/test_env.py
