@@ -17912,3 +17912,1539 @@
 2026-02-16 22:20:01,661 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
 2026-02-16 22:20:01,661 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
 2026-02-16 22:20:01,661 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,250 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,250 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,250 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,250 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,272 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,272 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,272 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,272 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,297 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,297 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,297 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,297 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,324 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,324 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,324 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,324 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,350 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:02,350 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:02,350 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,350 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,376 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,377 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,377 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,377 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,397 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:02,398 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:02,398 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,398 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,418 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:02,418 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:02,418 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,418 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,439 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:02,439 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:02,439 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,439 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,466 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:02,467 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:02,467 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,467 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,486 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:02,486 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:02,487 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,487 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,517 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,517 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,517 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,517 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,536 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:02,536 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:02,536 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,536 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,565 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,566 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,566 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,566 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,585 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,585 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,586 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,586 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,608 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:02,608 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:02,608 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,608 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,628 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,628 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,628 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,628 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,649 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:02,649 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:02,649 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,649 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,669 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,669 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,669 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,669 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,688 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:02,688 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:02,688 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,688 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,719 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:02,719 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:02,719 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,719 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,753 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:02,753 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:02,753 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,753 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,778 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:02,778 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:02,778 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,778 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,801 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:02,801 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:02,801 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,801 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,821 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:02,821 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:02,821 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,821 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,843 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,843 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,844 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,844 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,864 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:02,864 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:02,864 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,864 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,895 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,895 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,895 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,895 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,932 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:02,932 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:02,932 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,932 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:02,969 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:02,969 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:02,969 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:02,969 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,005 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:03,005 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:03,005 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,006 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,050 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:03,050 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:03,050 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,050 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,101 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:03,101 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:03,101 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,101 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,147 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:03,147 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:03,147 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,147 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,187 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:03,187 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:03,187 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,187 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,217 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:03,218 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:03,218 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,218 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,239 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:03,239 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:03,239 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,240 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,273 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:03,273 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:03,273 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,273 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,309 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:03,310 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:03,310 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,310 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,338 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:03,338 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:03,338 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,338 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,374 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:03,374 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:03,374 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,374 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,409 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:03,409 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:03,410 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,410 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:03,441 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:03,441 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:03,441 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:03,441 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,042 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:04,042 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:04,042 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,043 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,069 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:04,070 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:04,070 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,070 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,104 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,104 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,104 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,104 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,127 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:04,127 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:04,128 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,128 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,150 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,150 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,151 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,151 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,172 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:04,172 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:04,172 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,172 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,204 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:04,204 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:04,204 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,205 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,240 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:04,240 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:04,240 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,241 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,278 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,278 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,278 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,278 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,317 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:04,317 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:04,317 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,317 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,353 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:04,353 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:04,353 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,353 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,376 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:04,377 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:04,377 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,377 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,404 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:04,404 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:04,404 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,405 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,427 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:04,427 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:04,427 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,427 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,448 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,448 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,448 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,448 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,471 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:04,471 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:04,471 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,471 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,492 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:04,492 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:04,492 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,492 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,513 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:04,513 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:04,514 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,514 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,546 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,547 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,547 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,547 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,580 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,581 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,581 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,581 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,608 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:04,608 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:04,608 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,608 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,641 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:04,642 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:04,642 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,642 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,668 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,668 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,668 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,668 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,688 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:04,689 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:04,689 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,689 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,709 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,709 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,709 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,709 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,734 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:04,735 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:04,735 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,735 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,756 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,757 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,757 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,757 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,778 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:04,778 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:04,778 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,778 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,800 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,800 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,800 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,800 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,828 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:04,828 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:04,828 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,828 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,848 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:04,848 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:04,848 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,848 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,873 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:04,873 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:04,873 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,873 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,899 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:04,899 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:04,899 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,899 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,923 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:04,923 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:04,923 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,923 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:04,976 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:04,976 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:04,976 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:04,977 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,024 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:05,024 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:05,024 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,025 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,061 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:05,062 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:05,062 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,062 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,094 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:05,094 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:05,094 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,094 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,114 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:05,114 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:05,114 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,114 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,133 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:05,133 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:05,133 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,133 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,151 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:05,152 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:05,152 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,152 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,172 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:05,172 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:05,172 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,172 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,718 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:05,718 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:05,718 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,718 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,751 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:05,751 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:05,751 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,752 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,773 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:05,774 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:05,774 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,774 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,808 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:05,808 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:05,808 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,808 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,834 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:05,834 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:05,835 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,835 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,855 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:05,856 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:05,856 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,856 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,877 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:05,877 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:05,877 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,877 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,898 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:05,898 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:05,898 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,898 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,917 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:05,917 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:05,917 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,917 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,936 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:05,936 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:05,936 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,936 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,956 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:05,956 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:05,956 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,956 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,976 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:05,976 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:05,976 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,976 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:05,996 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:05,996 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:05,996 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:05,996 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,016 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:06,017 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:06,017 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,017 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,035 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:06,035 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:06,035 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,035 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,052 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,053 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,053 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,053 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,074 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:06,074 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:06,074 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,074 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,094 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:06,094 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:06,094 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,094 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,114 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,114 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,114 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,114 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,134 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,134 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,134 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,134 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,152 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:06,152 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:06,153 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,153 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,172 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,172 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,172 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,172 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,193 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:06,193 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:06,193 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,193 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,213 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,214 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,214 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,214 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,232 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,232 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,232 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,233 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,251 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,252 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,252 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,252 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,277 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,277 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,277 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,277 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,308 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,309 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,309 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,309 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,341 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,342 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,342 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,342 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,376 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:06,376 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:06,376 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,376 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,409 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,409 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,409 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,410 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,435 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:06,435 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:06,435 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,436 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,457 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:06,457 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:06,457 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,457 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,474 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,475 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,475 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,475 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,502 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,503 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,503 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,503 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,522 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:06,522 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:06,522 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,522 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,544 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,544 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,544 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,544 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,567 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:06,568 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:06,568 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,568 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,595 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:06,595 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:06,595 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,595 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,630 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:06,630 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:06,630 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,630 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,665 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:06,665 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:06,665 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,665 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,688 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:06,689 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:06,689 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,689 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:06,708 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:06,709 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:06,709 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:06,709 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,171 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,171 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,171 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,171 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,205 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,205 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,205 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,205 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,239 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,239 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,239 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,239 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,273 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:07,273 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:07,273 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,273 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,307 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:07,308 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:07,308 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,308 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,343 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:07,343 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:07,343 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,343 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,377 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:07,377 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:07,377 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,377 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,411 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,411 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,411 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,411 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,445 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:07,445 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:07,445 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,445 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,475 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,475 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,475 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,475 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,496 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:07,496 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:07,496 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,496 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,517 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:07,518 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:07,518 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,518 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,547 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:07,547 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:07,547 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,548 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,570 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:07,570 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:07,570 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,570 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,592 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:07,592 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:07,592 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,592 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,628 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:07,628 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:07,629 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,629 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,662 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:07,662 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:07,662 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,662 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,699 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,699 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,699 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,699 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,735 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:07,735 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:07,735 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,736 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,757 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:07,757 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:07,757 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,758 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,788 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:07,788 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:07,788 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,788 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,820 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:07,821 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:07,821 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,821 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,848 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:07,848 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:07,848 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,849 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,882 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:07,883 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:07,883 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,883 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,902 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:07,902 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:07,902 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,902 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,924 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:07,924 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:07,924 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,924 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,945 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:07,945 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:07,945 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,945 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,966 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:07,966 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:07,966 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,966 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:07,988 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:07,988 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:07,988 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:07,988 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,008 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:08,008 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:08,009 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,009 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,028 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:08,028 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:08,028 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,028 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,048 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:08,048 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:08,048 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,048 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,067 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:08,067 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:08,068 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,068 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,088 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:08,088 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:08,088 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,088 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,108 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:08,108 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:08,108 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,108 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,132 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:08,132 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:08,132 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,132 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,164 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:08,165 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:08,165 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,165 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,203 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:08,204 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:08,204 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,204 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,246 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:08,246 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:08,246 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,246 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,284 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:08,285 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:08,285 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,285 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,324 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:08,324 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:08,324 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,324 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,366 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:08,367 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:08,367 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,367 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,393 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:08,393 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:08,393 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,393 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:08,975 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:08,975 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:08,975 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:08,975 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,007 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,007 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,007 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,008 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,031 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:09,031 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:09,031 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,031 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,053 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,053 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,053 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,053 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,073 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:09,073 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:09,073 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,073 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,093 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:09,093 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:09,093 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,093 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,112 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,113 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,113 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,113 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,144 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,144 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,144 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,144 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,165 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,165 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,165 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,165 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,188 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:09,188 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:09,188 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,188 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,212 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,212 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,213 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,213 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,246 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:09,246 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:09,246 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,247 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,281 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,282 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,282 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,282 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,306 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,307 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,307 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,307 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,334 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,334 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,334 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,334 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,367 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,367 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,368 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,368 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,402 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,402 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,402 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,403 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,437 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:09,437 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:09,437 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,437 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,456 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:09,457 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:09,457 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,457 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,488 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:09,489 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:09,489 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,489 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,518 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,518 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,518 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,518 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,542 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:09,543 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:09,543 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,543 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,574 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:09,574 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:09,575 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,575 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,606 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,606 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,606 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,606 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,627 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,627 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,627 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,627 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,648 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,648 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,648 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,648 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,669 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,669 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,669 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,669 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,690 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,690 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,690 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,690 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,710 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:09,710 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:09,710 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,711 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,730 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,731 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,731 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,731 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,751 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,751 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,751 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,751 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,771 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,771 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,771 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,771 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,792 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:09,792 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:09,792 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,792 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,811 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,812 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,812 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,812 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,836 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,836 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,836 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,836 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,870 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,870 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,870 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,870 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,905 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:09,906 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:09,906 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,906 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,926 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:09,926 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:09,926 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,926 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,957 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:09,957 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:09,958 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,958 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:09,994 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:09,994 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:09,994 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:09,994 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,015 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:10,015 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:10,015 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,015 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,036 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:10,036 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:10,037 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,037 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,510 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:10,510 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:10,510 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,510 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,550 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:10,550 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:10,550 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,551 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,588 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:10,588 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:10,588 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,588 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,617 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:10,617 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:10,617 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,617 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,644 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:10,644 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:10,644 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,644 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,671 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:10,671 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:10,672 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,672 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,693 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:10,693 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:10,693 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,693 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,715 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:10,715 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:10,715 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,716 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,743 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:10,743 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:10,743 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,743 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,770 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:10,770 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:10,770 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,770 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,801 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:10,801 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:10,801 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,801 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,836 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:10,836 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:10,836 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,836 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,873 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:10,874 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:10,874 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,874 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,907 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:10,907 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:10,907 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,907 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,938 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:10,938 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:10,938 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,938 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:10,975 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:10,976 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:10,976 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:10,976 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,010 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:11,010 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:11,010 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,010 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,032 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,032 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,032 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,032 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,055 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,055 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,055 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,055 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,079 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:11,079 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:11,079 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,079 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,102 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:11,102 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:11,102 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,102 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,152 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:11,152 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:11,152 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,152 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,203 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,203 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,203 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,203 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,275 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:11,275 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:11,275 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,275 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,315 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,315 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,315 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,315 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,336 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:11,336 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:11,336 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,336 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,371 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:11,371 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:11,371 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,371 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,418 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:11,418 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:11,418 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,418 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,457 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,457 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,457 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,457 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,495 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:11,496 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:11,496 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,496 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,534 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:11,534 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:11,534 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,534 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,570 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:11,570 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:11,570 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,570 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,606 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:11,606 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:11,606 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,606 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,699 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,700 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,700 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,700 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,763 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:11,763 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:11,763 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,763 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,822 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:11,822 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:11,822 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,822 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,882 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:11,882 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:11,882 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,882 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,917 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:11,917 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:11,917 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,917 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,938 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:11,938 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:11,939 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,939 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:11,979 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:11,979 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:11,979 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:11,979 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,017 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:12,017 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:12,017 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,017 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,052 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:12,052 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:12,053 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,053 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,090 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:12,090 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:12,090 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,091 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,780 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:12,780 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:12,780 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,780 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,815 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:12,815 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:12,815 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,815 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,842 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:12,843 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:12,843 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,843 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,874 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:12,874 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:12,874 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,874 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,899 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:12,899 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:12,899 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,900 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,921 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:12,921 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:12,921 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,921 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,942 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:12,942 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:12,942 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,942 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,963 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:12,963 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:12,964 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,964 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:12,985 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:12,985 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:12,985 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:12,985 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,013 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,013 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,013 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,013 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,035 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,035 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,035 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,035 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,057 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:13,058 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:13,058 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,058 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,080 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,080 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,080 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,080 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,114 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:13,114 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:13,114 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,114 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,135 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,136 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,136 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,136 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,164 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,164 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,164 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,164 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,198 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:13,199 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:13,199 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,199 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,220 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:13,220 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:13,220 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,220 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,241 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,241 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,241 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,242 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,264 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:13,264 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:13,264 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,264 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,285 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:13,285 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:13,285 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,285 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,305 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:13,305 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:13,305 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,305 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,326 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:13,327 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:13,327 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,327 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,347 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:13,347 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:13,347 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,347 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,374 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:13,374 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:13,374 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,374 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,395 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:13,395 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:13,395 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,395 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,419 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:13,419 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:13,419 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,419 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,459 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:13,459 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:13,460 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,460 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,515 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:13,516 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:13,516 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,516 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,562 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:13,562 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:13,562 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,562 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,607 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,607 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,607 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,607 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,636 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:13,636 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:13,636 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,636 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,658 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:13,658 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:13,658 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,658 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,681 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,681 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,681 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,681 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,705 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:13,705 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:13,705 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,705 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,739 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:13,739 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:13,739 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,739 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,773 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:13,773 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:13,773 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,773 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,807 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:13,807 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:13,807 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,807 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,838 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:13,838 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:13,838 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,838 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,857 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:13,858 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:13,858 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,858 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,878 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:13,879 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:13,879 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,879 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,898 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:13,899 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:13,899 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,899 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:13,918 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:13,918 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:13,918 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:13,918 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,441 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:14,442 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:14,442 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,442 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,467 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:14,467 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:14,467 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,467 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,489 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:14,489 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:14,489 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,489 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,511 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,511 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,511 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,511 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,532 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:14,532 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:14,532 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,532 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,558 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:14,558 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:14,558 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,558 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,581 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:14,582 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:14,582 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,582 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,603 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:14,604 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:14,604 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,604 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,643 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,643 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,643 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,644 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,677 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:14,677 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:14,677 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,677 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,708 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:14,708 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:14,708 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,708 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,735 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:14,735 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:14,735 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,735 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,755 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:14,755 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:14,755 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,755 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,782 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,782 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,783 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,783 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,805 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,805 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,805 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,805 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,831 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:14,831 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:14,832 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,832 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,856 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:14,856 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:14,856 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,856 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,876 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,876 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,876 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,876 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,895 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:14,895 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:14,895 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,896 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,923 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:14,923 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:14,923 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,923 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,950 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,950 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,950 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,950 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,969 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:14,969 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:14,969 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,969 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:14,989 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:14,989 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:14,989 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:14,989 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,016 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:15,017 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:15,017 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,017 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,051 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:15,051 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:15,051 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,051 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,073 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:15,073 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:15,073 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,073 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,093 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:15,093 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:15,093 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,093 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,114 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:15,115 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:15,115 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,115 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,135 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:15,135 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:15,135 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,135 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,156 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:15,156 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:15,156 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,156 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,179 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:15,180 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:15,180 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,180 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,211 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:15,211 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:15,211 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,211 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,230 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:15,230 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:15,230 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,230 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,250 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:15,251 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:15,251 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,251 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,275 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:15,276 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:15,276 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,276 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,314 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:15,314 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:15,314 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,314 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,350 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:15,350 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:15,350 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,350 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,385 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:15,386 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:15,386 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,386 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,413 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:15,413 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:15,413 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,413 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,434 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:15,435 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:15,435 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,435 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,455 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:15,455 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:15,455 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,455 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,474 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:15,474 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:15,475 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,475 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:15,987 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:15,987 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:15,987 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:15,987 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,009 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:16,009 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:16,009 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,009 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,029 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:16,030 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:16,030 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,030 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,050 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:16,050 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:16,050 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,050 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,079 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,079 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,079 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,079 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,113 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,113 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,113 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,113 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,137 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,137 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,137 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,137 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,157 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:16,157 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:16,157 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,157 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,178 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,178 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,178 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,178 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,198 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,198 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,199 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,199 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,229 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:16,230 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:16,230 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,230 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,264 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,264 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,264 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,264 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,296 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:16,296 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:16,296 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,296 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,329 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:16,329 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:16,329 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,329 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,363 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,363 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,363 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,363 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,389 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:16,389 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:16,390 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,390 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,423 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,424 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,424 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,424 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,446 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,446 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,446 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,446 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,478 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,478 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,478 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,478 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,512 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:16,512 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:16,512 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,512 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,536 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:16,537 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:16,537 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,537 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,557 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#3
+2026-02-16 22:20:16,557 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#3
+2026-02-16 22:20:16,557 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,557 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,579 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,579 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,579 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,579 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,611 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,611 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,611 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,611 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,639 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:16,640 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:16,640 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,640 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,661 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:16,661 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:16,661 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,662 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,682 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:16,682 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:16,682 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,683 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,702 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,702 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,702 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,702 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,724 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,725 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,725 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,725 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,757 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:16,757 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:16,757 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,757 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,785 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:16,785 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:16,786 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,786 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,806 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,806 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,806 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,806 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,826 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,826 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,826 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,826 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,853 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,853 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,853 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,853 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,883 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,883 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,883 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,883 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,903 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,903 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,903 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,903 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,925 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#1
+2026-02-16 22:20:16,925 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#1
+2026-02-16 22:20:16,925 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,925 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,946 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:16,947 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:16,947 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,947 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,967 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#4
+2026-02-16 22:20:16,968 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#4
+2026-02-16 22:20:16,968 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,968 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:16,990 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:16,990 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:16,990 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:16,990 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:17,021 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#5
+2026-02-16 22:20:17,021 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#5
+2026-02-16 22:20:17,021 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:17,022 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:17,043 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn_db_20260211000001
+2026-02-16 22:20:17,043 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn_db_20260211000001
+2026-02-16 22:20:17,043 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:17,043 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
+2026-02-16 22:20:17,064 - rts.data.data_loader - DEBUG - Successfully loaded and validated scenario: scn#2
+2026-02-16 22:20:17,064 - rts.env.factory_env - DEBUG - Resetting Env - Scenario: scn#2
+2026-02-16 22:20:17,064 - rts.env.factory_env - DEBUG - Padded Prods: 5, Real Prods: 3
+2026-02-16 22:20:17,064 - rts.env.factory_env - DEBUG - Padded Procs: 5, Real Procs: 3
