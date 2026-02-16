@@ -37,6 +37,11 @@ class PlanWIPItem(BaseModel):
     oper_seq: int
     wip: float
     plan: float
+    batch: str = "DEFAULT"
+
+class ToolInventoryItem(BaseModel):
+    batch: str
+    count: int
 
 class DowntimeItem(BaseModel):
     model: str
@@ -57,7 +62,17 @@ class DataLoader:
     def list_scenarios(data_dir):
         if not os.path.exists(data_dir):
             return []
-        return [d for d in os.listdir(data_dir) if os.path.isdir(os.path.join(data_dir, d)) and d.startswith('scn')]
+        
+        # 1. Check for traditional scn# subdirectories
+        sub_scenarios = [d for d in os.listdir(data_dir) if os.path.isdir(os.path.join(data_dir, d)) and d.startswith('scn')]
+        if sub_scenarios:
+            return sub_scenarios
+            
+        # 2. Check if the directory itself is a scenario (contains plan_wip.json)
+        if os.path.exists(os.path.join(data_dir, 'plan_wip.json')):
+            return ['.']
+            
+        return []
 
     def __init__(self, data_dir: str = None, scenario: str = None, raw_data: Dict[str, Any] = None):
         self.data_dir = data_dir
@@ -81,6 +96,7 @@ class DataLoader:
                 self.inventory = [InventoryItem(**i) for i in self.raw_data['inventory']]
                 self.plan_wip = [PlanWIPItem(**p) for p in self.raw_data['plan_wip']]
                 self.downtime = [DowntimeItem(**d) for d in self.raw_data.get('downtime', [])]
+                self.tool_inventory = [ToolInventoryItem(**t) for t in self.raw_data.get('tool_inventory', [])]
             else:
                 # Load and Validate Capabilities
                 cap_data = load_json(os.path.join(self.scenario_path, 'equipment_capability.json'))
@@ -97,6 +113,13 @@ class DataLoader:
                 # Load and Validate Plan WIP
                 pw_data = load_json(os.path.join(self.scenario_path, 'plan_wip.json'))
                 self.plan_wip = [PlanWIPItem(**p) for p in pw_data['production']]
+
+                # Load and Validate Tool Inventory (Optional)
+                self.tool_inventory = []
+                tool_path = os.path.join(self.scenario_path, 'tool_inventory.json')
+                if os.path.exists(tool_path):
+                    tool_data = load_json(tool_path)
+                    self.tool_inventory = [ToolInventoryItem(**t) for t in tool_data.get('tools', [])]
 
                 # Load and Validate Downtime (Optional)
                 self.downtime = []
@@ -167,3 +190,9 @@ class DataLoader:
 
     def get_total_equipment(self) -> int:
         return sum(item.count for item in self.inventory)
+
+    def get_tool_inventory(self) -> Dict[str, int]:
+        return {item.batch: item.count for item in self.tool_inventory}
+
+    def get_batch_map(self) -> Dict[Tuple[str, str], str]:
+        return {(p.product, p.process): p.batch for p in self.plan_wip}

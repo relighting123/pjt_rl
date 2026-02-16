@@ -178,6 +178,8 @@ class ProductionEnv(gym.Env):
         self.prod_idx = {p: i for i, p in enumerate(self.products) if i < self.num_prods}
         self.proc_idx = {p: i for i, p in enumerate(self.processes) if i < self.num_procs}
         self.model_idx = {m: i for i, m in enumerate(self.models)}
+        self.batch_map = self.loader.get_batch_map()
+        self.tool_inventory = self.loader.get_tool_inventory()
         
         logger.debug(f"Resetting Env - Scenario: {self.current_scenario}")
         logger.debug(f"Padded Prods: {self.num_prods}, Real Prods: {self.real_num_prods}")
@@ -237,6 +239,14 @@ class ProductionEnv(gym.Env):
                 assigned_count = self.active_eqp[:, :, k].sum()
                 self.idle_eqp[k] = max(0, total_count - assigned_count)
 
+        # Initialize Tool Usage
+        self.tool_usage = {b: 0 for b in self.tool_inventory.keys()}
+        for p in range(self.num_prods):
+            for s in range(self.num_procs):
+                batch = self.batch_map.get((self.products[p], self.processes[s]))
+                if batch and batch in self.tool_usage:
+                    self.tool_usage[batch] += self.active_eqp[p, s, :].sum() + self.target_eqp[p, s, :].sum()
+
         self.total_changeovers = 0
         self.history = []
 
@@ -295,10 +305,20 @@ class ProductionEnv(gym.Env):
             src_info = None # (p, s, m) - if s is -1, it's from idle pool
             
             # 1. Try to find a feasible model in the IDLE POOL first
+            target_batch = self.batch_map.get((self.products[t_prod], self.processes[t_proc]))
+            
             for m in feasible_models:
                 if self.idle_eqp[m] > 0:
+                    # Check tool availability if target has a batch constraint
+                    if target_batch in self.tool_inventory:
+                        if self.tool_usage.get(target_batch, 0) >= self.tool_inventory[target_batch]:
+                            continue # Tool not available
+                    
                     self.idle_eqp[m] -= 1
                     self.target_eqp[t_prod, t_proc, m] += 1
+                    if target_batch in self.tool_usage:
+                        self.tool_usage[target_batch] += 1
+                        
                     # Changeover from idle is assumed to be default_co or 0? 
                     # Let's assume 0 for simplicity if coming from idle, or default_co if not
                     self.co_remaining[t_prod, t_proc, m] = self.default_co / 60.0 
@@ -320,13 +340,28 @@ class ProductionEnv(gym.Env):
 
                 if moved and src_info is not None:
                     sp, ss, sm = src_info
-                    self.active_eqp[sp, ss, sm] -= 1
-                    self.target_eqp[t_prod, t_proc, sm] += 1
+                    source_batch = self.batch_map.get((self.products[sp], self.processes[ss]))
+                    
+                    # Check tool availability if batch changes
+                    if source_batch != target_batch:
+                        if target_batch in self.tool_inventory:
+                            if self.tool_usage.get(target_batch, 0) >= self.tool_inventory[target_batch]:
+                                moved = False # Tool not available, move canceled
+                    
+                    if moved:
+                        self.active_eqp[sp, ss, sm] -= 1
+                        self.target_eqp[t_prod, t_proc, sm] += 1
+                        
+                        if source_batch != target_batch:
+                            if source_batch in self.tool_usage:
+                                self.tool_usage[source_batch] -= 1
+                            if target_batch in self.tool_usage:
+                                self.tool_usage[target_batch] += 1
 
-                    co_key = (self.products[sp], self.processes[ss], self.products[t_prod], self.processes[t_proc])
-                    co_time = self.co_matrix.get(co_key, self.default_co)
-                    self.co_remaining[t_prod, t_proc, sm] = max(self.co_remaining[t_prod, t_proc, sm], co_time / 60.0)
-                    self.total_changeovers += 1
+                        co_key = (self.products[sp], self.processes[ss], self.products[t_prod], self.processes[t_proc])
+                        co_time = self.co_matrix.get(co_key, self.default_co)
+                        self.co_remaining[t_prod, t_proc, sm] = max(self.co_remaining[t_prod, t_proc, sm], co_time / 60.0)
+                        self.total_changeovers += 1
 
         hour_production = np.zeros_like(self.wip)
         

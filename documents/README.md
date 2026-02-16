@@ -45,7 +45,7 @@ pip install gymnasium numpy pandas stable-baselines3 torch oracledb pydantic pyy
 ### 1. 학습 (Training)
 `data/` 폴더 내의 모든 시나리오를 사용하여 모델을 학습시킵니다.
 ```bash
-python main.py train
+rts train
 ```
 
 ### 2. 추론 (Inference)
@@ -53,31 +53,31 @@ python main.py train
 #### **DB 기반 실시간 추론**
 특정 `RULE_TIMEKEY` 값을 지정하여 DB에서 데이터를 읽고 결과를 적재합니다.
 ```bash
-python main.py infer --mode rl --timekey 20260211000005
+rts infer --mode rl --timekey 20260211000005
 ```
 
 #### **로컬 파일 기반 추론**
 특정 시나리오 폴더(예: `scn#5`)를 지정하여 실행합니다.
 ```bash
-python main.py infer --mode rl --scenario scn#5
+rts infer --mode rl --scenario scn#5
 ```
 
 ### 3. DB 데이터 동기화
 DB의 특정 데이터를 학습용 JSON 시나리오 폴더로 생성합니다.
 ```bash
-python main.py sync-db --timekey 20260211000005
+rts sync-db --timekey 20260211000005
 ```
 
 ---
 
 ## 📊 데이터베이스 테이블 구조 (Prefix: RTS_, Suffix: _INF)
 
-- `RTS_EQP_CAPA_INF`: 제품/공정/모델별 생산 가능 여부 및 ST (INITIAL_COUNT 포함)
-- `RTS_CO_RULE_INF`: 제품/공정 전환 시 발생하는 체인지오버 시간 설정
-- `RTS_EQP_INV_INF`: 보유 장비 모델별 총 수량
-- `RTS_PLAN_WIP_INF`: 현재 WIP 현황 및 생산 목표(Plan)
-- `RTS_EQP_DT_INF`: 장비 모델별 고장/점검(Downtime) 스케줄
-- `RTS_RESLT_INF`: 추론 결과(시뮬레이션 로그) 저장용 테이블
+- `RTS_PRODEQPMAP_INF`: 제품/공정/모델별 생산 가능 여부 및 ST (INITIAL_COUNT 포함)
+- `RTS_CVRULE_INF`: 제품/공정 전환 시 발생하는 체인지오버 시간 설정
+- `RTS_EQP_MAS`: 보유 장비 모델별 총 수량
+- `RTS_WIP_MAS`: 현재 WIP 현황 및 생산 목표(Plan)
+- `RTS_INVALIDEQP_INF`: 장비 모델별 고장/점검(Downtime) 스케줄
+- `RTS_RESULT_INF`: 추론 결과(시뮬레이션 로그) 저장용 테이블
 
 ---
 
@@ -86,17 +86,20 @@ python main.py sync-db --timekey 20260211000005
 ### 1. 시각적 구조도
 ```text
 rts/
-├── main.py                 # 프로젝트 메인 엔트리 포인트 (CLI)
-├── config.yaml             # 전체 설정 파일 (학습, DB, 로그 등)
-├── oracle_setup.sql        # Oracle DB 테이블 생성 및 설정 SQL
-├── all_scenarios_inserts.sql # 기존 샘플 데이터 DB 이관용 SQL
+├── config.yaml               # 전체 설정 파일 (학습, DB, 로그 등)
+├── pyproject.toml            # 패키지 빌드 및 의존성 설정
+├── models/                   # 학습된 모델 저장소 (.zip, .pth)
 ├── src/
 │   └── rts/
+│       ├── main.py           # 핵심 실행 로직 (CLI 핸들러)
+│       ├── __main__.py       # python -m rts 실행을 위한 엔트리
 │       ├── config/
 │       │   └── config_manager.py # Pydantic 기반 설정 유효성 검사
 │       ├── data/
 │       │   ├── data_loader.py    # JSON 데이터 파싱 및 전처리
-│       │   └── db_manager.py      # OracleDB 연동 및 결과 적재 로직
+│       │   ├── db_manager.py     # OracleDB 연동 및 결과 적재 로직
+│       │   ├── oracle_setup.sql  # Oracle DB 테이블 생성 및 설정 SQL
+│       │   └── all_scenarios_inserts.sql # 기존 샘플 데이터 DB 이관용 SQL
 │       ├── env/
 │       │   ├── factory_env.py    # 핵심 시뮬레이션 환경 (ProductionEnv)
 │       │   └── __init__.py

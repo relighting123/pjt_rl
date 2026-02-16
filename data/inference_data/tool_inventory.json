@@ -1,0 +1,12 @@
+{
+    "tools": [
+        {
+            "batch": "CC/150",
+            "count": 5
+        },
+        {
+            "batch": "DD/-10",
+            "count": 5
+        }
+    ]
+}

@@ -10,6 +10,7 @@ tqdm
 psutil
 fastapi
 uvicorn[standard]
+oracledb
 
 [test]
 pytest

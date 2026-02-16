@@ -80,3 +80,5 @@ AttributeError: 'Namespace' object has no attribute 'dry_run'
 2026-02-11 23:58:22,028 - rts.api.queue - ERROR - [Worker] Job e5303c65 failed: 'timestamp'
 2026-02-12 00:00:22,017 - rts.api.queue - ERROR - [Worker] Job bc52ef00 failed: 'timestamp'
 2026-02-12 00:00:22,017 - rts.api.queue - ERROR - [Worker] Job bc52ef00 failed: 'timestamp'
+2026-02-16 21:53:14,283 - rts.utils.system_checker - ERROR - No valid scenarios found in ./inference_data
+2026-02-16 21:53:14,283 - rts.main - ERROR - Pre-flight check failed. Exiting.

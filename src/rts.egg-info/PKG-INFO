@@ -16,5 +16,6 @@ Requires-Dist: tqdm
 Requires-Dist: psutil
 Requires-Dist: fastapi
 Requires-Dist: uvicorn[standard]
+Requires-Dist: oracledb
 Provides-Extra: test
 Requires-Dist: pytest; extra == "test"

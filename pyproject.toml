@@ -21,7 +21,11 @@ dependencies = [
     "psutil",
     "fastapi",
     "uvicorn[standard]",
+    "oracledb",
 ]
+
+[project.scripts]
+rts = "rts.main:main"
 
 [project.optional-dependencies]
 test = [

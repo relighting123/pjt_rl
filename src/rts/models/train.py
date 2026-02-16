@@ -70,10 +70,11 @@ def train_rl(env, bc_model=None, model_name: str = "ppo_eqp_allocator", config: 
 
     callback = RewardLoggerCallback()
     model.learn(total_timesteps=train_cfg.timesteps if train_cfg else 15000, callback=callback)
-    model.save(model_name)
+    model_path = os.path.join("models", model_name)
+    model.save(model_path)
 
     if callback.rewards:
-        plot_convergence(callback.rewards, filename=f"convergence_chart_{model_name}.png")
+        plot_convergence(callback.rewards, filename=os.path.join("models", f"convergence_chart_{model_name}.png"))
 
     return model
 
@@ -148,7 +149,8 @@ def run_training(args, config: Config = None):
         if epoch % 5 == 0:
             logger.info(f"BC Epoch {epoch}, Loss: {total_loss/len(loader):.4f}")
     
-    torch.save(model_bc.state_dict(), "bc_model.pth")
+    os.makedirs("models", exist_ok=True)
+    torch.save(model_bc.state_dict(), os.path.join("models", "bc_model.pth"))
 
     # 2. RL Fine-tuning
     model_name = "ppo_eqp_allocator"

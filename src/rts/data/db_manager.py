@@ -28,7 +28,7 @@ class DBManager:
     def get_latest_timekey(self) -> Optional[str]:
         """Fetch the most recent RULE_TIMEKEY from the database."""
         conn = self._get_connection()
-        query = "SELECT MAX(RULE_TIMEKEY) FROM RTS_PLAN_WIP_INF"
+        query = "SELECT MAX(RULE_TIMEKEY) FROM RTS_WIP_MAS"
         with conn.cursor() as cursor:
             cursor.execute(query)
             row = cursor.fetchone()
@@ -42,11 +42,11 @@ class DBManager:
         data = {}
         
         queries = {
-            "capabilities": f"SELECT PRODUCT, PROCESS, MODEL, ST, FEASIBLE, INITIAL_COUNT FROM RTS_EQP_CAPA_INF WHERE RULE_TIMEKEY = :tk",
-            "changeover": f"SELECT FROM_PRODUCT, FROM_PROCESS, TO_PRODUCT, TO_PROCESS, CO_TIME, DEFAULT_TIME FROM RTS_CO_RULE_INF WHERE RULE_TIMEKEY = :tk",
-            "inventory": f"SELECT MODEL, CNT AS count FROM RTS_EQP_INV_INF WHERE RULE_TIMEKEY = :tk",
-            "plan_wip": f"SELECT PRODUCT, PROCESS, OPER_SEQ, WIP, PLAN FROM RTS_PLAN_WIP_INF WHERE RULE_TIMEKEY = :tk",
-            "downtime": f"SELECT MODEL, START_STEP, END_STEP, CNT AS count FROM RTS_EQP_DT_INF WHERE RULE_TIMEKEY = :tk"
+            "capabilities": f"SELECT PRODUCT, PROCESS, MODEL, ST, FEASIBLE, INITIAL_COUNT FROM RTS_PRODEQPMAP_INF WHERE RULE_TIMEKEY = :tk",
+            "changeover": f"SELECT FROM_PRODUCT, FROM_PROCESS, TO_PRODUCT, TO_PROCESS, CO_TIME, DEFAULT_TIME FROM RTS_CVRULE_INF WHERE RULE_TIMEKEY = :tk",
+            "inventory": f"SELECT MODEL, CNT AS count FROM RTS_EQP_MAS WHERE RULE_TIMEKEY = :tk",
+            "plan_wip": f"SELECT PRODUCT, PROCESS, OPER_SEQ, WIP, PLAN, BATCH FROM RTS_WIP_MAS WHERE RULE_TIMEKEY = :tk",
+            "downtime": f"SELECT MODEL, START_STEP, END_STEP, CNT AS count FROM RTS_INVALIDEQP_INF WHERE RULE_TIMEKEY = :tk"
         }
         
         with conn.cursor() as cursor:
@@ -91,6 +91,7 @@ class DBManager:
                 pw['oper_seq'] = int(pw['oper_seq'])
                 pw['wip'] = float(pw['wip'])
                 pw['plan'] = float(pw['plan'])
+                pw['batch'] = str(pw['batch']) if pw.get('batch') else "DEFAULT"
 
             # 5. Downtime
             cursor.execute(queries["downtime"], tk=rule_timekey)
@@ -104,10 +105,10 @@ class DBManager:
         return data
 
     def upload_results(self, rule_timekey: str, results: List[Dict[str, Any]]):
-        """Upload inference results to RTS_RESLT_INF."""
+        """Upload inference results to RTS_RESULT_INF."""
         conn = self._get_connection()
         sql = """
-            INSERT INTO RTS_RESLT_INF (
+            INSERT INTO RTS_RESULT_INF (
                 RULE_TIMEKEY, SIM_STEP, PRODUCT, PROCESS, WIP, PRODUCTION, 
                 ACTIVE_EQP, TARGET_EQP, UNAVAILABLE_EQP, PLAN, PRODUCED_SUM, TOTAL_CO
             ) VALUES (
@@ -125,7 +126,7 @@ class DBManager:
             
         with conn.cursor() as cursor:
             # 1. Clear existing results for this timekey
-            cursor.execute("DELETE FROM RTS_RESLT_INF WHERE RULE_TIMEKEY = :tk", tk=rule_timekey)
+            cursor.execute("DELETE FROM RTS_RESULT_INF WHERE RULE_TIMEKEY = :tk", tk=rule_timekey)
             
             # 2. Batch insert new results
             cursor.executemany(sql, rows)

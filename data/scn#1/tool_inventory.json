@@ -1,0 +1,12 @@
+{
+    "tools": [
+        {
+            "batch": "AA/-40",
+            "count": 1
+        },
+        {
+            "batch": "BB/25",
+            "count": 2
+        }
+    ]
+}

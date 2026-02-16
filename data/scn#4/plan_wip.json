@@ -5,22 +5,24 @@
             "process": "Step_10",
             "oper_seq": 10,
             "plan": 120,
-            "wip": 120
+            "wip": 120,
+            "batch": "AA/-40"
         },
         {
             "product": "ProductA",
             "process": "Step_20",
             "oper_seq": 20,
             "plan": 120,
-            "wip": 120
+            "wip": 120,
+            "batch": "AA/-40"
         },
         {
             "product": "ProductA",
             "process": "Step_30",
             "oper_seq": 30,
             "plan": 120,
-            "wip": 0
+            "wip": 0,
+            "batch": "BB/25"
         }
     ]
 }
-

@@ -24,7 +24,7 @@ def main():
     infer_parser.add_argument("--data_dir", type=str, default="./data")
     infer_parser.add_argument("--scenario", type=str, default=None)
     infer_parser.add_argument("--timekey", type=str, default=None, help="OracleDB RULE_TIMEKEY")
-    infer_parser.add_argument("--model_path", type=str, default="ppo_eqp_allocator")
+    infer_parser.add_argument("--model_path", type=str, default="models/ppo_eqp_allocator")
     infer_parser.add_argument("--output", type=str, default="inference_results.csv")
     infer_parser.add_argument("--config", type=str, default="config.yaml")
     infer_parser.add_argument("--dry-run", action="store_true", help="Validate data and config without inference")

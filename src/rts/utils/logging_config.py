@@ -4,6 +4,11 @@ import os
 from logging.handlers import RotatingFileHandler
 
 def setup_logging(log_dir="logs", level=logging.INFO):
+    # Prevent duplicate handlers if called multiple times
+    root_logger = logging.getLogger()
+    if root_logger.hasHandlers():
+        return
+
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
