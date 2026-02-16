@@ -19,7 +19,7 @@ def run_inference(args, config: Config = None):
     rule_timekey = getattr(args, 'timekey', None)
     
     if config.db.enabled and rule_timekey:
-        from ..data.db_manager import DBManager
+        from ..database.db_manager import DBManager
         db = DBManager(config.db)
         
         if rule_timekey == "auto":

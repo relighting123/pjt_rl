@@ -2,7 +2,7 @@ import os
 import torch
 import psutil
 import logging
-from ..data.data_loader import DataLoader
+from ..database.data_loader import DataLoader
 
 logger = logging.getLogger(__name__)
 

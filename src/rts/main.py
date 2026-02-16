@@ -1,8 +1,8 @@
 import argparse
 import sys
 import logging
-from rts.models.train import run_training
-from rts.models.inference import run_inference
+from rts.engine.train import run_training
+from rts.engine.inference import run_inference
 from rts.utils.logging_config import setup_logging
 from rts.utils.system_checker import pre_flight_check
 
@@ -68,7 +68,7 @@ def main():
     elif args.command == "infer":
         run_inference(args, config=config)
     elif args.command == "sync-db":
-        from rts.data.db_manager import DBManager
+        from rts.database.db_manager import DBManager
         import json
         import os
         

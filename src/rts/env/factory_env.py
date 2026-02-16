@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import logging
 from typing import Dict, Any
-from ..data.data_loader import DataLoader
+from ..database.data_loader import DataLoader
 from ..config.config_manager import EnvConfig
 
 logger = logging.getLogger(__name__)

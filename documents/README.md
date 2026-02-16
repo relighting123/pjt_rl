@@ -93,9 +93,12 @@ rts/
 │   └── rts/
 │       ├── main.py           # 핵심 실행 로직 (CLI 핸들러)
 │       ├── __main__.py       # python -m rts 실행을 위한 엔트리
-│       ├── config/
-│       │   └── config_manager.py # Pydantic 기반 설정 유효성 검사
-│       ├── data/
+│       ├── engine/
+│       │   ├── expert.py         # Heuristic 베이스라인 모델
+│       │   ├── inference.py      # 추론 실행 및 결과 분석 파이프라인
+│       │   ├── train.py          # 강화학습 모델 학습 로직
+│       │   └── __init__.py
+│       ├── database/
 │       │   ├── data_loader.py    # JSON 데이터 파싱 및 전처리
 │       │   ├── db_manager.py     # OracleDB 연동 및 결과 적재 로직
 │       │   ├── oracle_setup.sql  # Oracle DB 테이블 생성 및 설정 SQL

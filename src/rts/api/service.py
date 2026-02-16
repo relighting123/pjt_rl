@@ -13,7 +13,7 @@ from types import SimpleNamespace
 from typing import Dict, Any
 
 from ..config.config_manager import Config
-from ..models.inference import run_inference
+from ..engine.inference import run_inference
 
 logger = logging.getLogger(__name__)
 

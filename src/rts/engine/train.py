@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 from ..env.factory_env import ProductionEnv
 from .expert import HeuristicExpert
-from ..data.data_loader import DataLoader
+from ..database.data_loader import DataLoader
 from ..config.config_manager import Config
 from ..utils.seed_manager import set_seed
 from stable_baselines3 import PPO
